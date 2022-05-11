@@ -1,70 +1,233 @@
-@media only screen and (min-width:200px) and (max-width:991px){
-.inner-header {padding: 0;}
-.logo-area img {max-width: 90px;}
-.navigation-area ul {margin: 0px 0 0 -26px;}
-form input[value="LOG IN"] {
+@media only screen and (max-width: 991px) {
+  .inner-header {
+    padding: 0;
+  }
+  .logo-area img {
+    max-width: 90px;
+  }
+  .navigation-area ul {
+    margin: 0px 0 0 -26px;
+  }
+  form input[value="LOG IN"] {
     max-width: 25px;
-    font-size: 7px;}
-    form input[type="submit"] {
-        font-size: 7px;
-        margin-left: 0px;
-        padding: 4px 4px;
-      }
-form input {margin: 0 0 0 0px;}
- #image-area img {max-width: 361px}
+    font-size: 7px;
+  }
+  form input[type="submit"] {
+    font-size: 7px;
+    margin-left: 0px;
+    padding: 4px 4px;
+  }
+  form input {
+    margin: 0 0 0 0px;
+  }
+  #image-area img {
+    max-width: 359px;
+  }
 
-.image-text {
+  .image-text {
     margin-top: -157px;
     margin-left: -24px;
-    max-width: 386px;}
-.image-text h1 {
+    max-width: 386px;
+  }
+  .image-text h1 {
     font-size: 17.633px;
     max-width: 149px;
-    margin-top: -35px;}
-.image-text p {
-        font-size: 8.635px;
-        max-width: 128px;
-        line-height: 1.3em;
-        margin: 3px 0 10px 50px} 
-.image-text a {
-            font-size: 7px;
-            margin-left: 42px;} 
-.inner-work {padding: 0;} 
-.inner-work h2 {
+    margin-top: -35px;
+  }
+  .image-text p {
+    font-size: 8.635px;
+    max-width: 128px;
+    line-height: 1.3em;
+    margin: 3px 0 10px 50px;
+  }
+  .image-text a {
+    font-size: 7px;
+    margin-left: 42px;
+  }
+  .inner-work {
+    padding: 0;
+  }
+  .inner-work h2 {
     margin-left: 130px;
     padding: 6px 0;
     max-width: 110px;
     font-size: 16.725px;
   }
-.step {display: block;}
-.step-1 {margin-top: 20px;}
-.step-1 img {max-width: 50px;}
-.step h5 {font-size: 10px;
-padding: 0;}
-.step a {font-size: 9px;}
-.step-1 p {
+  .step {
+    display: block;
+  }
+  .step-1 {
+    margin-top: 20px;
+  }
+  .step-1 img {
+    max-width: 50px;
+  }
+  .step h5 {
+    font-size: 10px;
+    padding: 0;
+  }
+  .step a {
+    font-size: 9px;
+  }
+  .step-1 p {
     max-width: 140px;
     padding: 5px 0 15px 0;
     font-size: 8.635px;
     line-height: 1.5em;
   }
-.step-2 img {max-width: 40px;}
-.step h5 {font-size: 10px;
-    padding: 0;}
-.step a {font-size: 9px;}
-.step-2 p {
-        max-width: 180px;
-        padding: 5px 0 15px 0;
-        font-size: 8.635px;
-        line-height: 1.5em;}
-.step-2 {margin-bottom: 0;}
-.step-3 p {
+  .step-2 img {
+    max-width: 40px;
+  }
+  .step a {
+    font-size: 9px;
+  }
+  .step-2 p {
+    max-width: 180px;
+    padding: 5px 0 15px 0;
+    font-size: 8.635px;
+    line-height: 1.5em;
+  }
+  .step-2 {
+    margin-bottom: 0;
+  }
+  .step-3 p {
     max-width: 195px;
     padding: 5px 0 15px 0;
     font-size: 8.635px;
-    line-height: 1.5em;}
-.link {
-        font-size: 7px;
-        padding: 4px 4px;
-        margin-left: 150px;}
+    line-height: 1.5em;
+  }
+  .link {
+    font-size: 7px;
+    padding: 4px 4px;
+    margin-left: 150px;
+  }
+  .inner-features {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .features-text {
+    width: 100%;
+    order: 2;
+  }
+  .features-img {
+    width: 100%;
+    order: 1;
+  }
+  .features-img img {
+    max-width: 356px;
+    margin-top: 0;
+  }
+  .features-text h2 {
+    margin-left: 140px;
+    font-size: 16.725px;
+    max-width: 70px;
+  }
+  .features-text p {
+    max-width: 207px;
+    margin: 0 0 10px 80px;
+    font-size: 8.635px;
+    line-height: 1.9em;
+  }
+  .features-text ul {
+    margin: 0px 0 20px 67px;
+  }
+  .features-text ul li {
+    margin-top: -3px;
+    font-size: 9px;
+  }
+.features-text a {
+    font-size: 8.635px;
+    margin-left: 124px;
+    padding: 6px 6px;
+}
+.inner-mobileapp {
+    flex-direction: column;
+    padding: 0;
+  }
+.mobileapp-img {
+    width: 100%;
+  }
+.mobileapp-img img {
+    max-width: 355px;
+  }
+.mobileapp-text {
+    width: 100%;
+    padding: 0;
+  }
+.mobileapp-text h2 {
+    margin-left: 120px;
+    font-size: 16.725px;
+    padding: 0;
+    max-width: 121px;
+  }
+  .mobileapp-text p{
+    max-width: 207px;
+    margin: 6px 0 10px 80px;
+    font-size: 8.635px;
+    line-height: 1.9em;
+  }
+  .mobileapp-text img{
+    max-width: 70px;
+    margin: 8px -48px 15px 67px;
+  }
+  .inner-updates {
+    padding: 6px 0;
+  }
+  .inner-updates h2{
+    font-size: 16.725px;
+    max-width: 221px;
+    padding: 15px 0 10px 0;
+  }
+  .inner-updates p {
+    font-size: 8.635px;
+    max-width: 300px;
+  }
+  .form {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+  }
+  .input {
+    margin-left: 26px;
+    padding: 5px 150px 4px 28px;
+    margin-top: 14px;
+  }
+  .input[type="submit" ]{
+    padding: 6px 40px;
+    margin-left: 3px;
+  }
+  .inner-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 0 13px 0;
+  }
+  .footer-logo img {
+    max-width: 120px;
+  }
+  .footer-nav ul {
+    margin-right: -37px;
+    max-width: 356px;
+  }
+  .footer-nav li {
+    margin-left: 20px;
+  }
+  nav ul {
+    list-style: none;
+    margin-top: 15px;
+    max-width: 354px;
+  }
+  nav ul li {
+    margin-left: 5px;
+  }
+  .fa-brands {
+    font-size: 14px;
+    margin-left: 9px;
+  }
+  .copyright {
+    padding: 20px 0;
+  }
+  .copyright p {
+    font-size: 8.635px;
+    max-width: 260px;
+  }
 }
