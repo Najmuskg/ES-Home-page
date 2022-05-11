@@ -1,0 +1,70 @@
+@media only screen and (min-width:200px) and (max-width:991px){
+.inner-header {padding: 0;}
+.logo-area img {max-width: 90px;}
+.navigation-area ul {margin: 0px 0 0 -26px;}
+form input[value="LOG IN"] {
+    max-width: 25px;
+    font-size: 7px;}
+    form input[type="submit"] {
+        font-size: 7px;
+        margin-left: 0px;
+        padding: 4px 4px;
+      }
+form input {margin: 0 0 0 0px;}
+ #image-area img {max-width: 361px}
+
+.image-text {
+    margin-top: -157px;
+    margin-left: -24px;
+    max-width: 386px;}
+.image-text h1 {
+    font-size: 17.633px;
+    max-width: 149px;
+    margin-top: -35px;}
+.image-text p {
+        font-size: 8.635px;
+        max-width: 128px;
+        line-height: 1.3em;
+        margin: 3px 0 10px 50px} 
+.image-text a {
+            font-size: 7px;
+            margin-left: 42px;} 
+.inner-work {padding: 0;} 
+.inner-work h2 {
+    margin-left: 130px;
+    padding: 6px 0;
+    max-width: 110px;
+    font-size: 16.725px;
+  }
+.step {display: block;}
+.step-1 {margin-top: 20px;}
+.step-1 img {max-width: 50px;}
+.step h5 {font-size: 10px;
+padding: 0;}
+.step a {font-size: 9px;}
+.step-1 p {
+    max-width: 140px;
+    padding: 5px 0 15px 0;
+    font-size: 8.635px;
+    line-height: 1.5em;
+  }
+.step-2 img {max-width: 40px;}
+.step h5 {font-size: 10px;
+    padding: 0;}
+.step a {font-size: 9px;}
+.step-2 p {
+        max-width: 180px;
+        padding: 5px 0 15px 0;
+        font-size: 8.635px;
+        line-height: 1.5em;}
+.step-2 {margin-bottom: 0;}
+.step-3 p {
+    max-width: 195px;
+    padding: 5px 0 15px 0;
+    font-size: 8.635px;
+    line-height: 1.5em;}
+.link {
+        font-size: 7px;
+        padding: 4px 4px;
+        margin-left: 150px;}
+}
